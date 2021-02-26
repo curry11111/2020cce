@@ -38,7 +38,7 @@ int main()
   printf("%d"\n ,ans);
  }
 ```
-第四題程式碼
+## 第四題程式碼
 ```C
 #include<stdio.h>
 int main()
