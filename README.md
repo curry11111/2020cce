@@ -1,6 +1,7 @@
 # 2020cce
 程式設計
 ## 第一題程式碼
+```C
 #include<stdio.h>
 int main()
 {
@@ -8,7 +9,9 @@ int main()
  scanf("%d" ,&n);
  printf("%d=50*%d+5*%d+1*%d\n" ,n,n/50,(n%50)/5,(n%5)/1);
 } 
+```
 ## 第二題程式碼
+```C
 #include<stdio.h>
 int main()
 {
@@ -19,3 +22,4 @@ int main()
 } 
 printf("%d" ,ans);
 }
+```
