@@ -41,6 +41,7 @@ int main()
   printf("%d"\n ,ans);
  }
 ```
+![找倍數](https://github.com/curry11111/2020cce/blob/gh-pages/333.png)
 ## 第四題程式碼
 ```C
 #include<stdio.h>
