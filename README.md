@@ -2,15 +2,10 @@
 程式設計
 ## 第一題程式碼
 ```C
-#include<stdio.h>
-int main()
-{
- int n;
- scanf("%d" ,&n);
- printf("%d=50*%d+5*%d+1*%d\n" ,n,n/50,(n%50)/5,(n%5)/1);
-} 
-![找零錢](https://github.com/curry11111/2020cce/blob/gh-pages/111.png)
+
+
 ```
+![找零錢](https://github.com/curry11111/2020cce/blob/gh-pages/111.png?raw=true)
 ## 第二題程式碼
 ```C
 #include<stdio.h>
