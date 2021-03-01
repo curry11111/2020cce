@@ -74,3 +74,4 @@ int main()
 	printf("%d %d\n" ,a/big,b/big);
 }
 ```
+![分式簡化](https://github.com/curry11111/2020cce/blob/gh-pages/555.png)
