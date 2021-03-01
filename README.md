@@ -55,6 +55,7 @@ int n;
     else printf("F\n");
 }
 ```
+![整數轉換成等級](https://github.com/curry11111/2020cce/blob/gh-pages/444.png)
 ## 第五題程式碼
 ```C
 #include <stdio.h>
