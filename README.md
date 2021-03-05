@@ -1,3 +1,4 @@
+## 20210226
 ## 2020cce
 程式設計
 ## 第一題程式碼
@@ -75,6 +76,7 @@ int main()
 }
 ```
 ![分式簡化](https://github.com/curry11111/2020cce/blob/gh-pages/555.png)
+## 20210305
 ## 第一題程式碼
 ```C
 #include <stdio.h>
