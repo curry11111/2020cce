@@ -103,7 +103,7 @@ int main()
     printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
 }
 ```
-![]()
+![](https://github.com/curry11111/2020cce/blob/gh-pages/222%20(1).png)
 ## 第三題程式碼
 ```C
 #include <stdio.h>
