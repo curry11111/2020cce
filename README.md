@@ -87,7 +87,7 @@ int main()
     printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
 }
 ```
-![](https://github.com/curry11111/2020cce/blob/gh-pages/111%20(1).png)
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/111%20(1).png)
 ## 第二題程式碼
 ```C
 #include <stdio.h>
@@ -103,7 +103,7 @@ int main()
     printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
 }
 ```
-![](https://github.com/curry11111/2020cce/blob/gh-pages/222%20(1).png)
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/222%20(1).png)
 ## 第三題程式碼
 ```C
 #include <stdio.h>
@@ -122,4 +122,4 @@ int main()
     printf("n[0]:%d n[1]:%d n[2]:%d\n",n[0],n[1],n[2]);
 }
 ```
-![]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/333%20(1).png)
