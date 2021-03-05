@@ -75,3 +75,21 @@ int main()
 }
 ```
 ![分式簡化](https://github.com/curry11111/2020cce/blob/gh-pages/555.png)
+## 第一題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+    int n1=10,n2=20,n3=30;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
+    int *p = &n1;
+    *p=200;
+    printf("n1:%d n2:%d n3:%d\n",n1,n2,n3);
+}
+```
+## 第二題程式碼
+```C
+```
+## 第三題程式碼
+```C
+```
