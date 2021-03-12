@@ -161,7 +161,7 @@ int main()
     printAll();
 }
 ```
-![圖]
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week03-2.png)
 ## 第三題程式碼
 ```C
 #include <stdio.h>
