@@ -201,3 +201,96 @@ int maim()
 }
 ```
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week03-4.png)
+## 20210312
+## 實習課程設
+## 第一題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	int N;
+	int a[100];
+	scanf("%d" ,&N);
+	for(int i=0;i<N;i++){
+		scanf("%d" ,&a[i]);
+		printf("%d," ,a[i]*a[i]);
+	}
+	printf("\n");
+}
+```
+## 第二題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	char c[10];
+	
+
+	scanf("%s" ,&c);
+	int i=0;
+	while( c[i]!='\0')
+	{
+	if('A'<=c[i]&&c[i]<='Z')
+		printf("%c" ,c[i]-'A'+'a');
+	else if('a'<=c[i]&&c[i]<='z')
+		printf("%c" ,c[i]-'a'+'A');
+	else printf("%c" ,c[i]);
+	i++;
+	}
+	printf("\n");
+}
+```
+## 第三題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d" ,&n);
+	printf("%d %d\n" ,(n/7),(n%7));
+}
+```
+## 第四題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d" ,&n);
+	printf("%d\n",100+((n-2000)/500)*5+5);
+}
+```
+## 第五題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b,temp;
+	scanf("%d%d" ,&a,&b);
+	if(a>b)
+	{
+		temp=a;
+		a=b;
+		b=temp;
+	}
+	for(int i=a;i<=b;i++){
+		if(i%5==0) printf("%d\n" ,i);
+	}
+}
+```
+## 第六題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	int a,b,c;
+	scanf("%d%d%d" ,&a,&b,&c);
+	if(a>b&&b>c) printf("%d" ,a-c);
+	else if(a>c&&c>b) printf("%d" ,a-b);
+	else if(b>a&&a>c) printf("%d" ,b-c);
+	else if(b>c&&c>a) printf("%d" ,b-a);
+	else if(c>a&&a>b) printf("%d" ,c-b);
+	else if(c>b&&b>a) printf("%d" ,c-a);
+	printf("\n");
+}
+```
