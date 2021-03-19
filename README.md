@@ -306,6 +306,7 @@ int main()
     struct POINT a;
 }
 ```
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week04-1.png)
 ## 第二題程式碼
 ```C
 #include <stdio.h>
@@ -318,7 +319,9 @@ int main()
     printf("%f %f\n",a.x,a.y);
 }
 ```
+![圖]()
 ## 第三題程式碼
 ```C
 
 ```
+![圖]()
