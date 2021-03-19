@@ -203,7 +203,7 @@ int maim()
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week03-4.png)
 ## 20210312
 ## 實習課程設
-## 第一題程式碼
+## 第一題程式碼  計算陣列的平方值
 ```C
 #include <stdio.h>
 int main()
@@ -218,7 +218,7 @@ int main()
 	printf("\n");
 }
 ```
-## 第二題程式碼
+## 第二題程式碼  大小寫轉換
 ```C
 #include <stdio.h>
 int main()
@@ -240,7 +240,7 @@ int main()
 	printf("\n");
 }
 ```
-## 第三題程式碼
+## 第三題程式碼  計算幾週與幾天
 ```C
 #include <stdio.h>
 int main()
@@ -250,7 +250,7 @@ int main()
 	printf("%d %d\n" ,(n/7),(n%7));
 }
 ```
-## 第四題程式碼
+## 第四題程式碼  計程車資計算
 ```C
 #include <stdio.h>
 int main()
@@ -260,7 +260,7 @@ int main()
 	printf("%d\n",100+((n-2000)/500)*5+5);
 }
 ```
-## 第五題程式碼
+## 第五題程式碼  兩數間可被5整除的整數
 ```C
 #include <stdio.h>
 int main()
@@ -278,7 +278,7 @@ int main()
 	}
 }
 ```
-## 第六題程式碼
+## 第六題程式碼  整數間最大距離
 ```C
 #include <stdio.h>
 int main()
@@ -360,27 +360,135 @@ int main()
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week04-4.png)
 ## 20210319
 ## 實習課程式碼
-## 第一題程式碼
+## 第一題程式碼 除惡務盡
 ```C
+#include <stdio.h>
+int main()
+{
+	char a[100];
+	scanf("%s",&a);//將字串讀入依序放入陣列最後加上'\0'
+	int i=0;
+	while(a[i]!='\0')
+{
+	if(a[i]!='2')
+		printf("%c",a[i]);
+		i++;
+}
+	printf("\n");
+}
 ```
-## 第二題程式碼
+## 第二題程式碼  擲骰統計
 ```C
+#include <stdio.h>
+int main()
+{
+	char a[100];
+	char count[7]={0};
+	scanf("%s" ,&a);
+	int i=0;
+	while (a[i]!='\0')
+	{
+	count[a[i]-'0']++;
+	i++;
+	}
+	for(int i=1;i<=6;i++){
+	printf("%d:%d\n",i,count[i]);
+	}      //點數 次數
+}
 ```
-## 第三題程式碼
+## 第三題程式碼  函數找整數的最大數字
 ```C
+#include<iostream>
+using namespace std;
+int max_digit(int n)
+{
+	int max;
+	max=n%10;
+	while(n>0)
+{
+	if((n%10)>max) max=n%10;
+	n/=10;
+}
+	return max;
+}
+int main(){
+  int n;cin>>n;
+  cout<<"["<<max_digit(n)<<"]";
+  return 0;
+}
+/* 上方C++ 的 main 函數 等價於 下方 C 的 main 函數
+int main(void){
+  int n;
+  scanf("%d", &n);
+  printf("[%d]", max_digit(n));
+  return 0;
+}
+*/
 ```
-## 第四題程式碼
+## 第四題程式碼  星星等腰三角
 ```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d" ,&n);
+	for(int i=1;i<=n;i++){
+		for(int j=0;j<n-i;j++){
+		printf(" ");
+		}
+		for(int j=0;j<(2*i-1);j++){
+		printf("*");
+		}
+		printf("\n");
+	}
+}
 ```
-## 第五題程式碼
+## 第五題程式碼  分開整數的每個數字
 ```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d" ,&n);
+	printf("%d   ",n/10000);
+	printf("%d   ",(n%10000)/1000);
+	printf("%d   ",((n%10000)%1000)/100);
+	printf("%d   ",(((n%10000)%1000)%100)/10);
+	printf("%d",(((n%10000)%1000)%100)%10);
+}
 ```
-## 第六題程式碼
+## 第六題程式碼  字元判別
 ```C
+#include <stdio.h>
+int main()
+{
+	char a;
+	scanf("%c" ,&a);
+	if(a>='A' && a<='Z') printf("U");
+	else if(a>='a' && a<='z') printf("L");
+	else if(a>='0' && a<='9') printf("D");
+	else printf("O");
+}
 ```
-## 第七題程式碼
+## 第七題程式碼  數字之首
 ```C
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d" ,&n);
+	printf("%d" ,n/1000);
+}
 ```
-## 第八題程式碼
+## 第八題程式碼  輸出從0到N的偶數
 ```C
+#include <stdio.h>
+int main()
+{
+	int N;
+	scanf("%d%d" ,&N);
+	for(int i=1;i<=N;i++){
+		if(i%2==0) printf("%d " ,i);
+	}
+}
 ```
