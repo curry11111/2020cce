@@ -357,3 +357,4 @@ int main()
     printf("c: %d %d\n",c.x,c.y);
 }
 ```
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week04-4.png)
