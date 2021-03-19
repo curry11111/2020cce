@@ -294,3 +294,19 @@ int main()
 	printf("\n");
 }
 ```
+## 20210319
+## 第一題程式碼
+```C
+#include <stdio.h>
+struct POINT{
+    float x,y;
+} ;
+int main()
+{
+    struct POINT a;
+}
+```
+## 第二題程式碼
+```C
+
+```
