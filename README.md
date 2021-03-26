@@ -555,7 +555,7 @@ int main()
 	}
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week05-5.png)
 ## 第六題程式碼
 ```C
 #include <stdio.h>
