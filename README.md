@@ -492,3 +492,114 @@ int main()
 	}
 }
 ```
+## 20210326
+## 第一題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	char line[10]="decline";
+	char line2[10]={'p','r','o','p','e','r','\0'};
+	printf("%s\n",line);
+	printf("%s\n",line2);
+}
+```
+![圖]()
+## 第二題程式碼
+```C
+{
+	char line[10]="decline";
+	char line2[10]={'p','r','o','p','e','r','\0'};
+	printf("%s\n",line);
+	printf("%s\n",line2);
+	char line3[]="majority";
+	printf("%s\n",line3);
+	char line4[]={'p','r','o','p','e','r','\0'};
+	printf("你看看你看看，現在印出來的line4: ==%s==\n",line4);
+}
+```
+![圖]()
+## 第三題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	char line [5][10]={"decline","proper","majority","bullet","shop");
+	for( int i=0;i<5;i++){
+		printf("%s\n",line[i]);
+	}
+}
+```
+![圖]()
+## 第四題程式碼
+```C
+#include <stdio.h>
+int main()
+{
+	printf("請看看值是多少: %d",'\0');
+}
+```
+![圖]()
+## 第五題程式碼
+```C
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	char line[10]="majority";
+	char line2[10]="ask";
+	if( strcmp( line,line2)>0){
+		printf("左邊大\n");
+	}else{
+		printf("右邊大\n");
+	}
+}
+```
+![圖]()
+## 第六題程式碼
+```C
+#include <stdio.h>
+#include <string.h>
+char line[100][10];
+int main()
+{
+	int N;
+	scanf("%d" ,&N);
+	for(int i=0;i<N;i++){
+		scanf("%s" ,line[i]);
+	}
+	char temp[10];
+	for(int i=0;i<N;i++){
+		for(int j=i+1;j<N;j++){
+			if(strcmp(line[i],line[j])>0){
+			   strcpy(temp,line[i]);
+			   strcpy(line[i],line[j]);
+			   strcpy(line[j],temp);
+			  }
+			 }
+			}
+	for(int i=0;i<N;i++){
+		printf("%s\n",line[i]);
+	}
+}
+```
+![圖]()
+## 實習課程式碼
+## 第一題程式碼
+```C
+```
+## 第二題程式碼
+```C
+```
+## 第三題程式碼
+```C
+```
+## 第四題程式碼
+```C
+```
+## 第五題程式碼
+```C
+```
+## 第六題程式碼
+```C
+```
