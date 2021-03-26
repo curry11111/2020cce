@@ -504,7 +504,7 @@ int main()
 	printf("%s\n",line2);
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week05-1.png)
 ## 第二題程式碼
 ```C
 {
