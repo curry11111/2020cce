@@ -539,7 +539,7 @@ int main()
 	printf("請看看值是多少: %d",'\0');
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week05-4.png)
 ## 第五題程式碼
 ```C
 #include <stdio.h>
