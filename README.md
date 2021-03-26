@@ -518,7 +518,7 @@ int main()
 	printf("你看看你看看，現在印出來的line4: ==%s==\n",line4);
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week05-2.png)
 ## 第三題程式碼
 ```C
 #include <stdio.h>
