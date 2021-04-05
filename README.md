@@ -587,19 +587,92 @@ int main()
 ## 實習課程式碼
 ## 第一題程式碼
 ```C
+#include <stdio.h>
+int f(int n)
+{
+	int c;
+	int a=0;
+	while (n>0)
+	{
+		c=n%10;
+		n=n/10;
+		a=c+a*10;
+	}
+	return a;
+}
+int main()
+{
+	int n,a;
+	scanf("%d" ,&n);
+	printf("%d+%d=%d\n",n,f(a),n+f(a));
+}
 ```
 ## 第二題程式碼
 ```C
+#include <stdio.h>
+int f(int a)
+{
+	if(a>0) return a;
+	else return a*(-1);
+}
+int main(void)
+{
+	int n;
+	scanf("%d",&n);
+	printf("[%d]",f(n));
+	return 0;
+}
 ```
 ## 第三題程式碼
 ```C
+#include <stdio.h>
+int main()
+{
+	int N;
+	scanf("%d",&N);
+	int a[100];
+	int ans=0;
+	for(int i=0;i<N;i++){
+		scanf("%d",&a[i]);
+		ans=ans+a[i];
+	}
+	
+	printf("%d\n",ans);
+
+
+
+
+}
 ```
 ## 第四題程式碼
 ```C
+#include <stdio.h>
+int main()
+{
+	int a,b,c;
+	scanf("%d%d%d",&a,&b,&c);
+	if(a>b&&a>c) printf("%d\n",a);
+	else if(b>a&&b>c) printf("%d\n",b);
+	else printf("%d\n",c);
+
+
+
+
+
+
+
+}
 ```
 ## 第五題程式碼
 ```C
-```
-## 第六題程式碼
-```C
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("%d\n",a/b);
+
+
+
+}
 ```
