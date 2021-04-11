@@ -702,7 +702,7 @@ int main()
 	}
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week07-3.png)
 ## 實習課程式碼
 ## 第一題程式碼
 ```C
