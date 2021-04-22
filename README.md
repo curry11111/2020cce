@@ -877,3 +877,4 @@ int main()
 	printf(" %d\n" ,ans);
 }
 ```
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week08.png)
