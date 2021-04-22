@@ -844,3 +844,36 @@ int main()
 	printf("%d=50*%d+10*%d+5*%d+1*%d",n,n/50,(n%50)/10,(n%50%10)/5,(n%50%10%5)/1);
 }
 ```
+##20210416
+##第一題程式碼
+```C
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+char name[2000][80];
+int compare(const void *p1,const void *p2)
+{
+	return strcmp((char*)p1,(char*)p2);
+}
+char trash[80];
+int main()
+{
+	int n;
+	scanf("%d" ,&n);
+	for(int i=0;i<n;i++){
+		scanf("%s" ,name[i]);
+		gets(trash);
+	}
+	qsort( name,n,80,compare);
+	int ans=1;
+	printf("%s" ,name[0]);
+	for(int i=0;i<n-1;i++){
+		if (strcmp (name[i],name[i+1]) !=0){
+		printf(" %d\n" ,ans);
+		printf("%s" ,name[i+1]);
+		ans=1;
+		}else ans++;
+	}
+	printf(" %d\n" ,ans);
+}
+```
