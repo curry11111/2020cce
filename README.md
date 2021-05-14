@@ -1033,4 +1033,4 @@ int main()
 	}
 }
 ```
-![圖](
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week12-6.png)
