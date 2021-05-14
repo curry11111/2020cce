@@ -939,6 +939,7 @@ int main()
 		}
 }
 ```
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week12-1.png)
 ## 第二題程式碼
 ```C
 #include <stdio.h>
@@ -980,6 +981,7 @@ int main()
 		}
 }
 ```
+![圖](
 ## 第三題程式碼
 ```C
 #include <stdio.h>
@@ -1010,6 +1012,7 @@ int main()
 	}
 }
 ```
+![圖](
 ## 第四題程式碼
 ```C
 #include <stdio.h>
@@ -1030,3 +1033,4 @@ int main()
 	}
 }
 ```
+![圖](
