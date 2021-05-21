@@ -1125,4 +1125,4 @@ void draw(){
   text( "還剩下:" + hh + ":" +mm + ":" + ss ,100,300);
 }  
 ```
-![圖](
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week13-6.png)
