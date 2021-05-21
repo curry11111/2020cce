@@ -1040,6 +1040,7 @@ int main()
 size(1024, 400)
 background( 160，215，300 
 ```
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week13-1.png)
 ## 第二步倒數計時器
 ```C
 void setup(){
@@ -1050,7 +1051,7 @@ if(mousePressed)background( 255,0,255 );
 else background( 15,162,249);
 }
 ```
-![圖](
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week13-1.png)
 ## 第三步倒數計時器
 ```C
 void setup(){//只做一次設定
@@ -1067,7 +1068,7 @@ void mousePressed(){
   a++;
 }
 ```
-![圖](
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week13-3.png)
 ## 第四步倒數計時器
 ```C
 void setup(){
@@ -1082,7 +1083,7 @@ void draw(){
   text( "Now:" + h + ":" + m + ":" + s ,100 ,100);
 }//      字串   數  字串  數   字串 數字
 ```
-![圖](
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week13-4.png)
 ## 第五步倒數計時器
 ```C
 void setup(){
@@ -1101,4 +1102,4 @@ void draw(){
   text( "總秒數:" + total, 100, 200);
 }
 ```
-![圖](
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week13-5.png)
