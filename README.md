@@ -1050,6 +1050,7 @@ if(mousePressed)background( 255,0,255 );
 else background( 15,162,249);
 }
 ```
+![圖](
 ## 第三步倒數計時器
 ```C
 void setup(){//只做一次設定
@@ -1066,6 +1067,7 @@ void mousePressed(){
   a++;
 }
 ```
+![圖](
 ## 第四步倒數計時器
 ```C
 void setup(){
@@ -1080,6 +1082,7 @@ void draw(){
   text( "Now:" + h + ":" + m + ":" + s ,100 ,100);
 }//      字串   數  字串  數   字串 數字
 ```
+![圖](
 ## 第五步倒數計時器
 ```C
 void setup(){
@@ -1098,3 +1101,4 @@ void draw(){
   text( "總秒數:" + total, 100, 200);
 }
 ```
+![圖](
