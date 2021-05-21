@@ -1034,3 +1034,67 @@ int main()
 }
 ```
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week12-6.png)
+## 20210521
+## 第一步倒數計時器
+```C
+size(1024, 400)
+background( 160，215，300 
+```
+## 第二步倒數計時器
+```C
+void setup(){
+size(1024, 400);
+}
+void draw(){
+if(mousePressed)background( 255,0,255 );
+else background( 15,162,249);
+}
+```
+## 第三步倒數計時器
+```C
+void setup(){//只做一次設定
+ size(1024, 400);
+}
+void draw(){//每秒狂做60次
+  if(mousePressed)background( 255,0,255 );
+  else background( 15,162,249);
+  textSize(50);//字的大小 設50號字
+  text(a,100,100);//將a在 100，100畫出來
+}
+int a=0;//外部變數
+void mousePressed(){
+  a++;
+}
+```
+## 第四步倒數計時器
+```C
+void setup(){
+  size( 1024, 400);
+}
+void draw(){
+  background( 15, 162, 249 );
+  textSize(50);
+  int h = hour();
+  int m = minute();
+  int s = second();
+  text( "Now:" + h + ":" + m + ":" + s ,100 ,100);
+}//      字串   數  字串  數   字串 數字
+```
+## 第五步倒數計時器
+```C
+void setup(){
+  size( 1024, 400);
+  textFont(  createFont ("標楷體",50) );
+}
+void draw(){
+  background( 15, 162, 249 );
+  textSize(50);
+  int h = hour();//小時
+  int m = minute();//分鐘
+  int s = second();//秒
+  fill(255,0,0);//填充墨水的色彩
+  text( "Now:" + h + ":" + m + ":" + s ,100 ,100);//現在時間
+  int total = h*60*60 + m*60 + s;//總秒數
+  text( "總秒數:" + total, 100, 200);
+}
+```
