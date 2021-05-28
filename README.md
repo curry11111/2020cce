@@ -1178,9 +1178,13 @@ void mousePressed(){
     a[i2]=temp;
 }
 ```
-![圖]()
-## 第四步倒數計時器
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week14-3.png)
+## 第四步洗牌
 ```C
 
+```
+![圖]()
+## 第五步洗牌
+```C
 ```
 ![圖]()
