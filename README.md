@@ -1228,4 +1228,4 @@ void mousePressed(){
   N++;//其實數字早就決定了!!!!!我們只是慢慢印出來，讓人以為你是慢慢抽
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week14-5.png)
