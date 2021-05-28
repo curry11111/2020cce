@@ -1139,7 +1139,21 @@ void setup(){//設定 只做一次
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week14-1.png)
 ## 第二步倒數計時器
 ```C
-
+//Q1:數字有小數點，不好!!! A:整數無條件捨去
+//Q2:沒有互動 A:用mousePressed互動!
+void setup(){//設定 只做一次
+  size(300,200);
+  textSize(30);
+}
+int ans=0;
+void draw(){//畫圖，每秒60次 60fps
+  background(#2C9CF0);
+    //int ans = random(60);//強制轉型
+    text( ans, 30, 30);//跳太快了...
+}
+void mousePressed(){
+  ans = (int)random(60);
+}
 ```
 ![圖]()
 ## 第三步倒數計時器
