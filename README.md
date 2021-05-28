@@ -1201,7 +1201,7 @@ void mousePressed(){
   }
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week14-4.png)
 ## 第五步洗牌
 ```C
 ```
