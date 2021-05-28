@@ -1136,7 +1136,7 @@ void setup(){//設定 只做一次
   text( ans,0,30);
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week14-1.png)
 ## 第二步倒數計時器
 ```C
 
