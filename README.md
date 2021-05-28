@@ -1137,7 +1137,7 @@ void setup(){//設定 只做一次
 }
 ```
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week14-1.png)
-## 第二步倒數計時器
+## 第二步好玩的抽籤
 ```C
 //Q1:數字有小數點，不好!!! A:整數無條件捨去
 //Q2:沒有互動 A:用mousePressed互動!
@@ -1156,9 +1156,27 @@ void mousePressed(){
 }
 ```
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week14-2.png)
-## 第三步倒數計時器
+## 第三步洗牌
 ```C
-
+//int a[]={1,2,3,4,5,6,7,8,9,10};//C,C++
+int []a = {1,2,3,4,5,6,7,8,9,10};//Java
+void setup(){
+    size(400,200);
+    textSize(30);
+}
+void draw(){
+    background(#2C9CF0);
+    for(int i=0 ;i<10;i++){
+        text(a[i],i*40,100);
+    }
+}
+void mousePressed(){
+    int i1 = (int) random(10);
+    int i2 = (int) random(10);
+    int temp=a[i1];
+    a[i1]=a[i2];
+    a[i2]=temp;
+}
 ```
 ![圖]()
 ## 第四步倒數計時器
