@@ -1155,7 +1155,7 @@ void mousePressed(){
   ans = (int)random(60);
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week14-2.png)
 ## 第三步倒數計時器
 ```C
 
