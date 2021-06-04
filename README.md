@@ -1329,4 +1329,4 @@ function draw(){//畫圖， 每秒60次
   text( s, 100, 100);
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/weekl15-6.png)
