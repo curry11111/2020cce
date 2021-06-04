@@ -1317,7 +1317,16 @@ void mousePressed(){
 }
 ```
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week15-5.png)
-## 第六步倒數計時發出聲音
+## 第六步網頁模式
 ```C
+function setup(){//設定 只做一次
+  createCanvas(400,200);
+  textSize(40);//字型大小
+}
+function draw(){//畫圖， 每秒60次
+  background(41,109,207);
+  let s = second();//秒鐘
+  text( s, 100, 100);
+}
 ```
 ![圖]()
