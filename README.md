@@ -1298,6 +1298,23 @@ void draw(){
 ![圖]()
 ## 第五步倒數計時發出聲音
 ```C
+import processing.sound.*;
+SoundFile player;
+void setup(){
+  size(400,200);
+  textSize(40);
+  player = new SoundFile( this,"bell.mp3");
+}//記得放tada.mp3
+void draw(){
+  background(51,114,191);
+}
+void mousePressed(){
+  if( player.isPlaying() ){
+    player.stop();
+  }else{
+    player.play();
+  }
+}
 ```
 ![圖]()
 ## 第六步倒數計時發出聲音
