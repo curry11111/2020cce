@@ -1242,7 +1242,7 @@ void draw(){//畫圖， 每秒60次
   text( s, 100, 100);
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week15-1.png)
+
 ## 第二步倒數計時發出聲音
 ```C
 //秒數: 0,1,2,3....59
@@ -1261,7 +1261,7 @@ void draw(){
 //  原: 0,1,2,3,4,5,6,7,8,9
 //倒數: 9,8,7,6,5,4,3,2,1,0
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week15-2.png)
+
 ## 第三步倒數計時發出聲音
 ```C
 import processing.sound.*;
@@ -1278,7 +1278,7 @@ void mousePressed(){
   player.play();
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week15-3.png)
+
 ## 第四步倒數計時發出聲音
 ```C
 import processing.sound.*;
@@ -1295,7 +1295,7 @@ void draw(){
   if( 9-s%10 == 0) player.play();
 }//0秒的時候，if會進去60次，
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week15-4.png)
+
 ## 第五步倒數計時發出聲音
 ```C
 import processing.sound.*;
@@ -1316,7 +1316,7 @@ void mousePressed(){
   }
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week15-5.png)
+
 ## 第六步網頁模式
 ```C
 function setup(){//設定 只做一次
@@ -1329,4 +1329,3 @@ function draw(){//畫圖， 每秒60次
   text( s, 100, 100);
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/weekl15-6.png)
