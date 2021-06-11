@@ -1341,7 +1341,7 @@ void draw(){
   ellipse(50,50,80,80);
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-1.png)
 ## 第二步大轉盤
 ```C
 void setup(){
