@@ -1370,7 +1370,7 @@ void draw(){
   arc(100,100,180,180,radians(90),radians(180));
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-3.png)
 ## 第四步大轉盤
 ```C
 ```
