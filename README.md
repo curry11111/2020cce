@@ -1358,8 +1358,17 @@ void draw(){//畫，每次60秒
 }//畫圓   圓心 寬 高
 ```
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-2.png)
-## 第三步大轉盤
+## 第三步大轉盤(講解)
 ```C
+void setup(){
+  size(400,200);
+  fill(255,0,0);
+  textSize(40);
+}
+void draw(){
+  background(57,255,127);
+  arc(100,100,180,180,radians(90),radians(180));
+}
 ```
 ![圖]()
 ## 第四步大轉盤
