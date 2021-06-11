@@ -1392,8 +1392,28 @@ void draw(){
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-4.png)
 ## 第五步大轉盤
 ```C
+void setup(){
+  size(400,200);
+  fill(255,0,0);
+  textSize(40);
+}
+float shift=0, v=10;
+void draw(){
+  background(57,255,127);
+  //float start = radians(90+mouseX);
+  //float stop = radians(180+mouseX);
+  float start = radians(90+shift);
+  float stop = radians(180+shift);
+  arc(100,100,180,180, start , stop );
+  if(v>0.0001){
+    shift+=v;//轉動速度
+    v = v*0.99;//速度會慢慢減速
+  }    
+    text(shift, 200, 100);//印出shift
+    text(v, 200, 150);//印出轉動的速度
+}
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-5.png)
 ## 第六步大轉盤
 ```C
 ```
