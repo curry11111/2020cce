@@ -1357,7 +1357,7 @@ void draw(){//畫，每次60秒
   arc(100,100,180,180,0,stop);
 }//畫圓   圓心 寬 高
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-2.png)
 ## 第三步大轉盤
 ```C
 ```
