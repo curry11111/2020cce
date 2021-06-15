@@ -1341,7 +1341,7 @@ void draw(){
   ellipse(50,50,80,80);
 }
 ```
-
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-1.png)
 ## 第二步大轉盤
 ```C
 void setup(){
@@ -1357,7 +1357,7 @@ void draw(){//畫，每次60秒
   arc(100,100,180,180,0,stop);
 }//畫圓   圓心 寬 高
 ```
-
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-2.png)
 ## 第三步大轉盤(講解)
 ```C
 void setup(){
@@ -1370,7 +1370,7 @@ void draw(){
   arc(100,100,180,180,radians(90),radians(180));
 }
 ```
-
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-3.png)
 ## 第四步大轉盤
 ```C
 void setup(){
@@ -1389,7 +1389,7 @@ void draw(){
   shift+=1;
 }
 ```
-
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-4.png)
 ## 第五步大轉盤
 ```C
 void setup(){
@@ -1413,7 +1413,7 @@ void draw(){
     text(v, 200, 150);//印出轉動的速度
 }
 ```
-
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-5.png)
 ## 第六步大轉盤
 ```C
 void setup(){
@@ -1438,7 +1438,7 @@ void draw(){
     text(v, 200, 150);//印出轉動的速度
 }
 ```
-
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-6.png)
 ## 第六步大轉盤
 ```C
 void setup(){
@@ -1468,4 +1468,4 @@ void draw(){
     text(v, 200, 150);//印出轉動的速度
 }
 ```
-
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week16-7.png)
