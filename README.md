@@ -1522,8 +1522,25 @@ void keyPressed(){
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-3.png)
 ## 課堂作業4
 ```C
+void setup(){
+  size(400,200);
+  textSize(40);
+}
+String line="";
+String Q = "hello";
+void draw(){//每秒60次
+  background(0);
+  text("Q:  "+Q ,  100,100);
+  text("A:  "+line,100,150);
+}
+void keyPressed(){
+  int len = line.length();
+  if(key>='a'&& key<='z') line = line + key;//小寫鍵
+  if(key>='A'&& key<='Z') line = line + key;//大寫鍵
+  if( key== BACKSPACE ) line = line.substring(0,len-1);
+}
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-4.png)
 ## 課堂作業5
 ```C
 ```
