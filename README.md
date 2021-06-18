@@ -1483,7 +1483,7 @@ void draw(){
   text(line,100,150);
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-1.png)
 ## 課堂作業2
 ```C
 void setup(){
