@@ -1519,7 +1519,7 @@ void keyPressed(){
   line = line+ key;
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-3.png)
 ## 課堂作業4
 ```C
 ```
