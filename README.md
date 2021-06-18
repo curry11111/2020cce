@@ -1501,7 +1501,7 @@ void mousePressed(){
   line = line+"a";
 }
 ```
-![圖]()
+![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-2.png)
 ## 課堂作業3
 ```C
 ```
