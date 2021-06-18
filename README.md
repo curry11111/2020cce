@@ -1504,6 +1504,20 @@ void mousePressed(){
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-2.png)
 ## 課堂作業3
 ```C
+void setup(){
+  size(400,200);
+  textSize(40);
+}
+String line="";
+String Q = "hello";
+void draw(){//每秒60次
+  background(0);
+  text("Q:  "+Q ,  100,100);
+  text("A:  "+line,100,150);
+}
+void keyPressed(){
+  line = line+ key;
+}
 ```
 ![圖]()
 ## 課堂作業4
