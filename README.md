@@ -1483,7 +1483,7 @@ void draw(){
   text(line,100,150);
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-1.png)
+
 ## 課堂作業2
 ```C
 void setup(){
@@ -1501,7 +1501,7 @@ void mousePressed(){
   line = line+"a";
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-2.png)
+
 ## 課堂作業3
 ```C
 void setup(){
@@ -1519,7 +1519,7 @@ void keyPressed(){
   line = line+ key;
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-3.png)
+
 ## 課堂作業4
 ```C
 void setup(){
@@ -1540,7 +1540,7 @@ void keyPressed(){
   if( key== BACKSPACE ) line = line.substring(0,len-1);
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-4.png)
+
 ## 課堂作業5
 ```C
 void setup(){
@@ -1563,7 +1563,7 @@ void keyPressed(){
   if( key== BACKSPACE && len>0 ) line = line.substring(0,len-1);
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-5.png)
+
 ## 課堂作業6
 ```C
 void setup(){
@@ -1591,7 +1591,7 @@ void keyPressed(){
   }
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-6.png)
+
 ## 課堂作業7
 ```C
 void setup(){
@@ -1622,4 +1622,4 @@ void keyPressed(){
   }
 }
 ```
-![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-7.png)
+
