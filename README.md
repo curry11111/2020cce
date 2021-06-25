@@ -1623,3 +1623,34 @@ void keyPressed(){
 }
 ```
 ![圖](https://github.com/curry11111/2020cce/blob/gh-pages/week17-7.png)
+## 20210625
+## 視訊鏡頭第一步
+```C
+import processing.video.*;
+Capture cam;
+void setup(){
+  size(640,480);
+  println( Capture.list() );
+}
+```
+![圖]()
+## 視訊鏡頭第二步
+```C
+```
+![圖]()
+## 視訊鏡頭第二步
+```C
+```
+![圖]()
+## 視訊鏡頭第三步
+```C
+```
+![圖]()
+## 視訊鏡頭第四步
+```C
+```
+![圖]()
+## 視訊鏡頭第五步
+```C
+```
+![圖]()
