@@ -1636,6 +1636,18 @@ void setup(){
 ![圖]()
 ## 視訊鏡頭第二步
 ```C
+import processing.video.*;
+Capture cam;
+void setup(){
+  size(640,480);
+  println( Capture.list() );
+  cam = new Capture( this, "HD WebCam");
+  cam.start();
+}
+void draw(){
+  if( cam.available() ) cam.read();
+  set( 0,0,cam);
+}
 ```
 ![圖]()
 ## 視訊鏡頭第二步
